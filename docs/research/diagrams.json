@@ -1,0 +1,24 @@
+{
+  "rendered": [
+    {
+      "source": "research/evidence/diagrams/02-0.mmd",
+      "rendered": "research/evidence/diagrams/02-0.svg",
+      "sha256": "c67767b1399b609ba235a9d49aa70b11b46a4b4899f57ac97431a66bc2ece12f"
+    },
+    {
+      "source": "research/evidence/diagrams/03-0.mmd",
+      "rendered": "research/evidence/diagrams/03-0.svg",
+      "sha256": "4448ff2c4058aa2b486d1e47f32a7b166ce4adcae9cd24b2c2e75e3330be1c9a"
+    },
+    {
+      "source": "research/evidence/diagrams/05-0.mmd",
+      "rendered": "research/evidence/diagrams/05-0.svg",
+      "sha256": "f4de328fc97afbda523b4475699fad16b80eb0b2458c7cb749a20f2c84827ad8"
+    },
+    {
+      "source": "research/evidence/diagrams/09-0.mmd",
+      "rendered": "research/evidence/diagrams/09-0.svg",
+      "sha256": "8cc107d24a5818dd850a89b9aa18b9d5234712756c3d330579d6249c2639b16b"
+    }
+  ]
+}

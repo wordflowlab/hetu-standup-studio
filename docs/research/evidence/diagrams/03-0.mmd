@@ -1,0 +1,12 @@
+sequenceDiagram
+ participant A as Codex
+ participant H as 河图CLI MCP
+ participant P as 专业应用层
+ participant C as Core
+ A->>H: 发现活动包 能力 Schema及Skill
+ A->>H: 读取固定作品与已有专业修订
+ A->>P: 完整操作 CAS及原键
+ P->>P: 核验专业关系与依据摘要
+ P->>C: 核验来源并保存固定修订
+ C-->>A: 确切结果 冲突或未知
+ A->>H: 原操作回读后继续

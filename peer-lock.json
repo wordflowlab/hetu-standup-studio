@@ -2,17 +2,17 @@
   "peers": [
     {
       "repository": "wordflowlab/hetu-stage-rehearsal",
-      "commit": "fcbfa8748f32aafd745b639e89e707ac4639b478",
-      "package_sha256": "cd9747cfebb064a7808defae79497b0b4f5dfe8a56d708dad5e6a518e5f0e36f"
+      "commit": "84e0ed9dfe480da7c3ab827440e1066e29762ffd",
+      "package_sha256": "943aabdcbd8cd92c96aa8ce748fe3afb44e57ed6475071befae8d6a4067d4748"
     },
     {
       "repository": "wordflowlab/hetu-science-studio",
-      "commit": "581f93fbe632ea143387a21b027436f97ecc6435",
-      "package_sha256": "da465983ccd365618fb9e00a74c112e062383fd16c14da9d6ca1dfaeb6d504b6"
+      "commit": "d36a879f041d6555df8e697dc1279be3b6f8c30f",
+      "package_sha256": "4bf88dca36aa8959e4e8559e431220865558e69f8b4fddaf410f8ac1f831f345"
     },
     {
       "repository": "wordflowlab/hetu-quest-studio",
-      "commit": "67b8c5b628bf39aeb1849919f8a509ef6374d090",
+      "commit": "4b84cbc05a38599e9943142800b755084833818c",
       "package_sha256": "ce08392833738d667eb33b057c58562613b20fa5f6649db6228f9e381ad7f169"
     }
   ],

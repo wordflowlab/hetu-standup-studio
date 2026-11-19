@@ -24,19 +24,19 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: wordflowlab/hetu-stage-rehearsal
-          ref: fcbfa8748f32aafd745b639e89e707ac4639b478
+          ref: 84e0ed9dfe480da7c3ab827440e1066e29762ffd
           path: hetu-stage-rehearsal
           persist-credentials: false
       - uses: actions/checkout@v4
         with:
           repository: wordflowlab/hetu-science-studio
-          ref: 581f93fbe632ea143387a21b027436f97ecc6435
+          ref: d36a879f041d6555df8e697dc1279be3b6f8c30f
           path: hetu-science-studio
           persist-credentials: false
       - uses: actions/checkout@v4
         with:
           repository: wordflowlab/hetu-quest-studio
-          ref: 67b8c5b628bf39aeb1849919f8a509ef6374d090
+          ref: 4b84cbc05a38599e9943142800b755084833818c
           path: hetu-quest-studio
           persist-credentials: false
       - uses: actions/setup-node@v4

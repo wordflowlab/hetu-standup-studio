@@ -1,0 +1,81 @@
+name: Official host acceptance
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: installed-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  installed:
+    runs-on: macos-26
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: plugin
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: limecloud/hetu
+          ref: b75293837aaa220803b9dc964ba72b8646fa7244
+          path: host
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: wordflowlab/hetu-stage-rehearsal
+          ref: fcbfa8748f32aafd745b639e89e707ac4639b478
+          path: hetu-stage-rehearsal
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: wordflowlab/hetu-science-studio
+          ref: 581f93fbe632ea143387a21b027436f97ecc6435
+          path: hetu-science-studio
+          persist-credentials: false
+      - uses: actions/checkout@v4
+        with:
+          repository: wordflowlab/hetu-quest-studio
+          ref: 67b8c5b628bf39aeb1849919f8a509ef6374d090
+          path: hetu-quest-studio
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '25.0.0'
+      - name: Install dependencies without compiling host
+        run: |
+          (cd host && npm ci)
+          (cd plugin && npm ci)
+          (cd hetu-stage-rehearsal && npm ci && npm run package)
+          (cd hetu-science-studio && npm ci && npm run package)
+          (cd hetu-quest-studio && npm ci && npm run package)
+      - name: Install artifact browser
+        working-directory: plugin
+        run: npx playwright install chromium
+      - name: Build and verify fixed plugin only
+        working-directory: plugin
+        run: |
+          npm run build
+          npm run check
+          npm run test:unit
+          node scripts/verify-docs.mjs
+          npm run package
+      - name: Verify signed host and complete professional workflows
+        working-directory: plugin
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/accept-installed.py
+      - name: Retain professional results and actual work surfaces
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-installed-acceptance
+          path: |
+            plugin/output/installed-acceptance/*.json
+            plugin/output/installed-acceptance/*.txt
+            plugin/output/installed-acceptance/*.html
+            plugin/output/installed-acceptance/*.png
+            plugin/output/installed-acceptance/*.log
+            plugin/test-results/
+          if-no-files-found: ignore
+          retention-days: 30

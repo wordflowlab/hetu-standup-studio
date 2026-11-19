@@ -1,0 +1,62 @@
+{
+  "retrieved_on": "2026-11-19",
+  "sources": [
+    {
+      "repository": "https://github.com/717281250-lgtm/standup-comedy-writing",
+      "commit": "0a694d5979fbe173d76c3317685242a3441b8ac1",
+      "license": "未发现明确许可证；只读研究，不复制内容",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "99090824237323a8cf720b69eb226c8a70f76ee6f97bda8ff38fb11bfc84278a",
+          "read_lines": [
+            1,
+            65
+          ]
+        },
+        {
+          "path": "SKILL.md",
+          "sha256": "812522c9aeb58c98a9037005035c77936e22d3972cbb4441d23e3397bd85d3a6",
+          "read_lines": [
+            1,
+            75
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    },
+    {
+      "repository": "https://github.com/olivierkes/manuskript",
+      "commit": "5241f69ada7e06726f3c300b8851768380bf0900",
+      "license": "GPL-3.0-or-later",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "7e1f2bc056d5c779d0abcb1c6c67fc0aecd6e1bf481a348966db96cf411ee23a",
+          "read_lines": [
+            1,
+            65
+          ]
+        },
+        {
+          "path": "COPYING",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+          "read_lines": [
+            1,
+            20
+          ]
+        },
+        {
+          "path": "manuskript/models/outlineItem.py",
+          "sha256": "a5e35fa38ce442cbec9bbf4421f1fabfad234d6c6e7f7519b652b28a7962e060",
+          "read_lines": [
+            1,
+            60
+          ]
+        }
+      ],
+      "use": "只读研究，未运行上游脚本或复制实现"
+    }
+  ],
+  "adoption": "只读研究开源脱口秀方法的前提、铺垫和回扣分层；Manuskript提供独立文本单元组织参考。未声明许可证的方法和GPL代码均不复制进插件，方法由河图任务语义重新编写。"
+}

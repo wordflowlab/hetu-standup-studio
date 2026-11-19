@@ -182,5 +182,12 @@
         "matches_final_package": true
       }
     ]
+  },
+  "public_package_install": {
+    "original_and_revised_preserved": true,
+    "original_operation_preserved": true,
+    "skill_resources_byte_verified": 3,
+    "other_states_preserved": 39,
+    "original_36_states_preserved": true
   }
 }

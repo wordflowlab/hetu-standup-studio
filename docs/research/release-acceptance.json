@@ -43,5 +43,36 @@
     "原创虚构素材，不认证真人排演、观众反应、科学解释或游戏体验",
     "沿用本机已记录的Computer Use原生通道不可用；本批使用实际Electron自动化，原生窗口材质另行取证",
     "未外发、付费、正文采纳或定稿"
-  ]
+  ],
+  "public_download": "public-download.json",
+  "local_validation": "local-validation.json",
+  "website": {
+    "source_commit": "ac9f0ac1e933886455e2bdb15ea3c727f817c87d",
+    "deployment": "https://1dea9859.hetu-website-3uu.pages.dev",
+    "origin": "https://hetu.limeai.run",
+    "pages": 211,
+    "local_references": 12531,
+    "local_browser_tests": 60,
+    "production_browser_tests": 60,
+    "exact_responses": 20,
+    "first_production_attempt": {
+      "first_attempt": {
+        "browser_passed": 59,
+        "browser_failed": 1,
+        "browser_failure": "English catalogue served preceding deployment without stage category (38 plugins)",
+        "byte_verification_failure": "/blog/one-station-four-forms/ returned 404"
+      },
+      "observed_before_rerun": {
+        "production_blog_status": 200,
+        "preview_blog_status": 200,
+        "production_english_catalogue_includes_stage_category": true
+      },
+      "logs_directory": "output/performance-learning-batch/website-first-production-attempt",
+      "preserved_log_sha256": {
+        "verify-public.log": "d119cd06d0328675e62533212dfd4586dcb37cbbbdb610e33801c785f4c6187e",
+        "website-production.log": "870d3d83853037e1971e7c1e6b6c0c4db7feedcb23d975b1cfd5ebc1e9808a76"
+      }
+    },
+    "plugin_url": "https://hetu.limeai.run/plugins/standup-studio/"
+  }
 }

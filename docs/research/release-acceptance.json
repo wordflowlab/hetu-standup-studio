@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-11-19",
+  "official_full_verification": "https://github.com/wordflowlab/hetu-standup-studio/actions/runs/44498827001",
+  "verification_source_commit": "20fcffde12de9a182467b354ce02cbd14fb517c5",
+  "host": {
+    "version": "0.12.6",
+    "git_sha": "b75293837aaa220803b9dc964ba72b8646fa7244",
+    "archive_sha256": "de012d76bb9751d6f2ed78427c6887563fcfd4455ae19717c6f65a9182700ab3",
+    "source_build": false,
+    "signature_verified": true,
+    "gatekeeper": "/Applications/Hetu.app: accepted\nsource=Notarized Developer ID",
+    "staple": "Processing: /Applications/Hetu.app\nThe validate action worked!"
+  },
+  "package_sha256": "4fe146a60d39ea2444a084d8576b952c4096049b9905ceb2d0425aaa7812bacb",
+  "archive_sha256": "bacdd7bb9675d56c5d0e51c5e7cb8f43e73d8f943c69d63a09b35b83339a5596",
+  "unit_tests": 31,
+  "machine_action_count": 33,
+  "browser_report_regressions": 2,
+  "full_pipeline": [
+    {
+      "test": "machine",
+      "exit_code": 0
+    },
+    {
+      "test": "cross",
+      "exit_code": 0
+    },
+    {
+      "test": "ui",
+      "exit_code": 0
+    }
+  ],
+  "current_codex": "conversation-acceptance.json",
+  "actual_work_surfaces": "ui-review.json",
+  "scope": [
+    "全部专业动作、三份包内方法、CAS、同键异参、原键恢复和安装启停卸载重装",
+    "四包同作品固定依据接续；调用依赖、回扣、精确计算、条件状态与固定记录分别验证，专业工程派生固定资料后进入真实章节参考稿任务",
+    "任务目录和完整原字节回读，独立剧本／视频及错作品拒绝，原作品与旧修订保持",
+    "五页浅暗1360／760、页头和正文起始位置、键盘、专业文件原字节、取消、冲突保留与关闭恢复"
+  ],
+  "limits": [
+    "macOS arm64专业开发预览，Windows/Linux专业实机未验收",
+    "原创虚构素材，不认证真人排演、观众反应、科学解释或游戏体验",
+    "沿用本机已记录的Computer Use原生通道不可用；本批使用实际Electron自动化，原生窗口材质另行取证",
+    "未外发、付费、正文采纳或定稿"
+  ]
+}

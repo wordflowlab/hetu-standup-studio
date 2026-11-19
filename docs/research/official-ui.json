@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-19T09:50:22.530Z",
+  "plugin_id": "org.wordflowlab.standup-studio",
+  "package_sha256": "4fe146a60d39ea2444a084d8576b952c4096049b9905ceb2d0425aaa7812bacb",
+  "host_version": "hetu 0.12.6",
+  "surface_origin": "fixed-packaged-host",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "tabs": [
+    "段单阅读",
+    "素材与段子",
+    "回扣与排演",
+    "备选与意见",
+    "节目交付"
+  ],
+  "geometry": [
+    {
+      "theme": "light",
+      "width": 1360,
+      "header_height": 58.09375,
+      "reading_top": 321.375
+    },
+    {
+      "theme": "light",
+      "width": 760,
+      "header_height": 58.09375,
+      "reading_top": 321.375
+    },
+    {
+      "theme": "dark",
+      "width": 1360,
+      "header_height": 58.09375,
+      "reading_top": 321.375
+    },
+    {
+      "theme": "dark",
+      "width": 760,
+      "header_height": 58.09375,
+      "reading_top": 321.375
+    }
+  ],
+  "empty_state": true,
+  "professional_actions": true,
+  "artifact_files": [
+    "脱口秀工坊审核本.html",
+    "脱口秀工坊阅读本.txt"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "widths": [
+    1360,
+    760
+  ],
+  "reduced_transparency": true,
+  "CAS_preserves_input": true,
+  "explicit_rebase": true,
+  "close_reopen": true,
+  "dirty_buffer_restore": true,
+  "page_errors": [],
+  "limits": [
+    "原生窗口材质、系统输入法及Windows/Linux未由本测试证明"
+  ]
+}

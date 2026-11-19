@@ -1,0 +1,186 @@
+{
+  "recorded_at": "2026-11-19",
+  "entry": "当前Codex经公开0.12.6 CLI连续操作；既有MCP热发现另行登记",
+  "host_version": "0.12.6",
+  "work_ref": {
+    "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+    "kind": "novel",
+    "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+  },
+  "package_sha256": "4fe146a60d39ea2444a084d8576b952c4096049b9905ceb2d0425aaa7812bacb",
+  "original": {
+    "object_id": "ext_180d3f15-44cc-4f3a-bf83-0954741cdb43",
+    "revision": 1,
+    "sha256": "f2ba80448a0018a6c71b25c81067f971d22fb27773b0d55d1e4746c5ea3fa90b"
+  },
+  "revised": {
+    "object_id": "ext_180d3f15-44cc-4f3a-bf83-0954741cdb43",
+    "revision": 5,
+    "sha256": "5242472b345ee708453458707d41fd1c6bccaf95fe25c6b00b91dd336b34b780"
+  },
+  "source_ref": {
+    "kind": "resource",
+    "work_ref": {
+      "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+      "kind": "novel",
+      "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+    },
+    "resource_id": "resource_3ff6d5ce-c217-4def-be61-090f813446bb",
+    "revision": 1,
+    "sha256": "6f019f2a8ed8d47e731d5d0ab08a50b02ffc7616d1123d036bb893ace8b3fa2f"
+  },
+  "original_operation_preserved": true,
+  "previous_revision_preserved": true,
+  "old_snapshot_preserved": true,
+  "other_states_preserved": 37,
+  "existing_objects_read": 0,
+  "checks_before_review": {
+    "basis_ref": {
+      "object_id": "ext_180d3f15-44cc-4f3a-bf83-0954741cdb43",
+      "owner_plugin_id": "org.wordflowlab.standup-studio",
+      "revision": 3,
+      "sha256": "3e7e9cd09e86e4a247de8438b6b17faecb53df194e8d8a72c1e5de56c8efee25"
+    },
+    "callback_warnings": [
+      {
+        "callback_id": "callback",
+        "occurrence_id": "b",
+        "reason": "回扣出场前没有铺垫"
+      }
+    ],
+    "note": "结构提示不判定幽默品质，手记不等于真人研究。",
+    "project_ref": {
+      "object_id": "ext_180d3f15-44cc-4f3a-bf83-0954741cdb43",
+      "revision": 3,
+      "sha256": "3e7e9cd09e86e4a247de8438b6b17faecb53df194e8d8a72c1e5de56c8efee25"
+    },
+    "stale_callback_ids": [
+      "callback"
+    ],
+    "stale_note_ids": [
+      "note"
+    ],
+    "stale_set_ids": [
+      "linear",
+      "alternate"
+    ],
+    "stale_variant_ids": [
+      "variant"
+    ]
+  },
+  "checks_after": {
+    "basis_ref": {
+      "object_id": "ext_180d3f15-44cc-4f3a-bf83-0954741cdb43",
+      "owner_plugin_id": "org.wordflowlab.standup-studio",
+      "revision": 5,
+      "sha256": "5242472b345ee708453458707d41fd1c6bccaf95fe25c6b00b91dd336b34b780"
+    },
+    "callback_warnings": [
+      {
+        "callback_id": "callback",
+        "occurrence_id": "b",
+        "reason": "回扣出场前没有铺垫"
+      }
+    ],
+    "note": "结构提示不判定幽默品质，手记不等于真人研究。",
+    "project_ref": {
+      "object_id": "ext_180d3f15-44cc-4f3a-bf83-0954741cdb43",
+      "revision": 5,
+      "sha256": "5242472b345ee708453458707d41fd1c6bccaf95fe25c6b00b91dd336b34b780"
+    },
+    "stale_callback_ids": [],
+    "stale_note_ids": [
+      "note"
+    ],
+    "stale_set_ids": [
+      "alternate"
+    ],
+    "stale_variant_ids": [
+      "variant"
+    ]
+  },
+  "upstream_basis": [
+    {
+      "owner_plugin_id": "org.wordflowlab.stage-rehearsal",
+      "object_id": "ext_029c2767-c892-4e56-86a9-3fdc9079347f",
+      "revision": 4,
+      "sha256": "a11c3c30c8b4597c4ac2e6481e4f950453d1ddbcf9325affc9be4924b61c6476"
+    }
+  ],
+  "adopted": false,
+  "finalized": false,
+  "fixture": "原创虚构素材，不认证真人排演、观众反馈、科学解释或游戏体验",
+  "original_work_fixed_ref": {
+    "revision_ref": {
+      "revision": 1
+    },
+    "sha256": "6577f6a191a8b6889c1c769db9f18e6afeb47e07359c92b47f259514ad33aaaf",
+    "work_ref": {
+      "kind": "novel",
+      "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac",
+      "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875"
+    }
+  },
+  "original_work_record_unchanged": true,
+  "continuation": {
+    "task_kind": "chapter_draft",
+    "fixed_input_refs": [
+      {
+        "kind": "resource",
+        "work_ref": {
+          "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+          "kind": "novel",
+          "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+        },
+        "resource_id": "resource_3ff6d5ce-c217-4def-be61-090f813446bb",
+        "revision": 1,
+        "sha256": "6f019f2a8ed8d47e731d5d0ab08a50b02ffc7616d1123d036bb893ace8b3fa2f"
+      },
+      {
+        "kind": "resource",
+        "work_ref": {
+          "workspace_id": "workspace_01abb9b1-8e4a-46ac-a8ee-82d200f35875",
+          "kind": "novel",
+          "object_id": "novel_c070a2bc-10f4-4b55-a61b-981caa46f1ac"
+        },
+        "resource_id": "resource_10c0cf94-5290-4b1b-9dde-62b6e22102ae",
+        "revision": 1,
+        "sha256": "57223ef68ed8064c41bd309e52c589dbca89d669e7716ee170ab0594834e550b"
+      }
+    ],
+    "context_full_bytes_verified": true,
+    "candidate_saved_and_read": true,
+    "adopted": false
+  },
+  "final_candidate_upgrade": {
+    "old_revisions_and_operation_preserved": true,
+    "other_plugin_states_preserved": 39,
+    "methods_byte_verified": 3
+  },
+  "mcp": {
+    "connected_host_version": "0.12.3",
+    "final_package_hot_discovered": true,
+    "read_revision": 5,
+    "revised_sha256_verified": true,
+    "methods": [
+      {
+        "resource": "SKILL.md",
+        "status": "succeeded",
+        "sha256": "3b58b3d152ae21129372d6212ed6ca472eb2ebb118ee306c9878da4de5207307",
+        "matches_final_package": true
+      },
+      {
+        "resource": "references/workflows.md",
+        "status": "succeeded",
+        "sha256": "a01f5066a20da2f99f10f163e996d3c7a0e0759e3690c1c727e76140269e4fe0",
+        "matches_final_package": true
+      },
+      {
+        "resource": "references/operations.md",
+        "status": "succeeded",
+        "sha256": "b7b21d050bd436eaf66dada9daa290a21a80a2bc15029cb02a1bf84d17e15af0",
+        "matches_final_package": true
+      }
+    ]
+  }
+}

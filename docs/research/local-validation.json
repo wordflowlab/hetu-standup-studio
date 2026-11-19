@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-11-19",
+  "logs": [
+    {
+      "path": "output/machine.log",
+      "sha256": "5377d59c66236e65a638a9ba91b339b8d115231cbe4c1560ecfcb61c60cf12db",
+      "passed_marker": true,
+      "failure_marker": false
+    },
+    {
+      "path": "output/ui.log",
+      "sha256": "168ef47b4a87a0f8462aab1af5ae539b05e6848cfdda3d796d82313385938b18",
+      "passed_marker": false,
+      "failure_marker": true
+    },
+    {
+      "path": "output/cross.log",
+      "sha256": "7d7ac4155e57b2d9b43beac113cf7517531e2bd708bd1ee3540ee853d21def79",
+      "passed_marker": true,
+      "failure_marker": false
+    }
+  ],
+  "fixes": [
+    {
+      "package": "science-studio",
+      "issue": "默认SI计算未提交可选输出单位，动作Schema却错误要求必填；实际界面打开失败。",
+      "fix": "unit设为可选，增加公开应用层默认SI成功和显式错误量纲拒绝回归；不只覆盖领域函数。",
+      "failed_run": "https://github.com/wordflowlab/hetu-science-studio/actions/runs/44496272353"
+    },
+    {
+      "package": "stage-rehearsal",
+      "issue": "方法中重复出场表述含糊，可能被理解为不能重复调用提示。",
+      "fix": "明确拒绝重复ID或order，同提示多个独立出场保持合法。"
+    },
+    {
+      "package": "quest-studio",
+      "issue": "共享SVG路径样式覆盖箭头填充，使任务图方向不够清楚。",
+      "fix": "marker单独定义填充，并在实际Electron断言可见，固定最终包重测。"
+    }
+  ],
+  "local_boundary": "本机脱口秀用例已写出业务断言回执，但退出清理超时，因此不计为完整本机旅程通过；以独立macOS运行器最终固定包全链路结果为准。其他本机日志按原结果留存，不将缺失或运行中计为通过。",
+  "shared_application_replaced": false,
+  "limits": [
+    "共享/Applications/Hetu.app未替换",
+    "原创虚构素材不是真人排演、观众反馈、科研或游戏体验认证"
+  ]
+}
